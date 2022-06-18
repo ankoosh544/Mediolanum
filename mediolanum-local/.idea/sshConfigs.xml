@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="www.farinato.acserver.site" id="007b7f1b-4207-4c2a-8391-0abc32732d50" port="22" nameFormat="DESCRIPTIVE" username="dh_8nvdkb" />
+      <sshConfig authType="PASSWORD" host="jaguarxk8.acserver.site" id="d73b0a62-c408-46e0-bf66-fa8b72983874" port="22" nameFormat="DESCRIPTIVE" username="dh_pdeadf" />
+    </configs>
+  </component>
+</project>

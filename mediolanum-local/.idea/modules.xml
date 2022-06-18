@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Farinato.iml" filepath="$PROJECT_DIR$/.idea/Farinato.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../the-tribune/.idea/The-tribune.iml" filepath="$PROJECT_DIR$/../the-tribune/.idea/The-tribune.iml" />
+      <module fileurl="file:///Applications/XAMPP/xamppfiles/htdocs/imd/.idea/imd.iml" filepath="/Applications/XAMPP/xamppfiles/htdocs/imd/.idea/imd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../thewatchboutique.acserver.site/.idea/thewatchboutique.acserver.site.iml" filepath="$PROJECT_DIR$/../thewatchboutique.acserver.site/.idea/thewatchboutique.acserver.site.iml" />
+    </modules>
+  </component>
+</project>

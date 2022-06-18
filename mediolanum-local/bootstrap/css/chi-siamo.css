@@ -1,0 +1,295 @@
+/* general css */
+
+.commonBtn {
+    background-color: orange;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+
+/* header css */
+
+.logo {
+    width: 280px;
+}
+
+.headerSection {
+    background-image: url('../../img/Ellipse-1-white.svg');
+    max-width: 1440px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    /*border-bottom-left-radius: 50% 10%;
+    border-bottom-right-radius: 50% 10%;*/
+    margin: 0 auto;
+}
+
+.headerSectionInner {
+    padding: 40px;
+}
+
+.menuMiddle ul li {
+    display: inline-block;
+    margin-right: 31px;
+}
+
+.menuMiddle ul li a {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    /* Ciano */
+    color: #0092D4;
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.menuRight ul li {
+    display: inline-block;
+}
+
+.menuRight .user {
+    margin-left: 28px;
+    margin-right: 18px;
+}
+
+.menuMiddle {
+    margin-top: 25px;
+}
+
+.menuRight {
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+/* hero sectin */
+
+.heroSection {
+    position: relative;
+    height: auto;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.heroSectionInner {
+    position: relative;
+    height: auto;
+}
+
+.heroSectionInner .herotitle {
+    font-size: 62px;
+    line-height: 68.2px;
+    font-family: Mediolanum Semi-serif Headline;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 62px;
+    line-height: 110%;
+    color: #0092D4;
+}
+
+.herodescription {
+    display: block;
+    /* Corpo blu grande */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    /* Ciano */
+    color: #0092D4;
+    width: 80%;
+}
+
+.heroSectionInner .leftSection {
+    padding-left: 40px;
+}
+
+.heroSectionInner .rightSection {
+    position: relative;
+}
+
+.heroSectionInner .imgSection {
+    position: absolute;
+    top: -69px;
+    left: 51px;
+    width: 453px;
+}
+
+.heroSectionInner .logos .heroSubTitle {
+    margin-bottom: 27px;
+}
+
+.logos .logosItem {
+    display: inline-block;
+    margin-right: 49px;
+    max-width: 100px;
+}
+
+.heroSectionInner .readMoreBtn {
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+
+/* bodySection*/
+
+.bodySection {
+    position: relative;
+    margin: auto auto;
+}
+
+
+/*..........................Row1..............................*/
+
+.row1 {
+    position: relative;
+    display: flex;
+    background-image: url('../../img/Immagine-aerea.svg');
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    height: 881px;
+}
+
+.row1-img-content {
+    position: relative;
+    margin-top: 325px;
+    margin-left: 95px;
+    color: WHITE;
+}
+
+.r1-title {
+    font-size: 21px;
+    line-height: 24.95px;
+}
+
+.r1-description {
+    font-size: 36px;
+    line-height: 42.19px;
+    width: 560px;
+}
+
+
+/*.............................Row2..................*/
+
+.row2 {
+    position: relative;
+    max-width: 1440px;
+    height: 881px;
+    background-image: url('../../img/chi-r2-Rectangle-30.svg'), url('../../img/chi-r2-Immagine-persona.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    background-size: 1440px;
+}
+
+.r2-title {
+    /* H6 ALT */
+    font-family: Mediolanum Semi-serif Headline;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+    /* identical to box height */
+    /* Bianco Sporco */
+    color: #F9F9F9;
+}
+
+.r2-description {
+    /* Corpo blu grande */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    /* Bianco Sporco */
+    color: #F9F9F9;
+}
+
+.row2-img-content {
+    width: 41%;
+    margin-left: 663px;
+    margin-top: 224px;
+}
+
+.row3 {
+    background-image: url('../../img/chi-r3-Immagine-ragazza.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    max-width: 1440px;
+    height: 881px;
+}
+
+.r3-text {
+    /* Corpo blu grande */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    /* Bianco Sporco */
+    color: #F9F9F9;
+}
+
+.commonBtn2 {
+    background-color: orange;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: #fff;
+    margin-left: 408px;
+}
+
+
+/* footer css */
+
+.menuBottomSection {
+    position: relative;
+    background-color: #1B2554;
+    color: #fff;
+    padding: 82px;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+
+/*.menuBottomSectionInner{
+	max-width: 1240px;
+	margin: 0 auto;
+}*/
+
+.menuBottomSection a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menuBottomSection a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.menuBottomSection .menuBottomSectionLinks .title {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.menuBottomSection .menuBottomSectionLinks {
+    margin-bottom: 20px;
+}
+
+.menuBottomSection .menuBottomSectionLinks a {
+    color: #c5c5c5;
+}
+
+
+/* mobile */
+
+@media only screen and (max-width: 600px) {
+    .menuBottomSection {
+        padding: 43px;
+    }
+}

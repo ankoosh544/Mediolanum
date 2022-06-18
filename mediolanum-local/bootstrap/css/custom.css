@@ -1,0 +1,504 @@
+    @media only screen and (max-width: 600px) {
+        .menuBottomSection {
+            padding: 43px;
+        }
+    }
+    
+    .wrapper {
+        position: relative;
+        /* width: 1440px; */
+        /* height: 3500px; */
+        background: white;
+        margin: auto;
+    }
+    /* general css */
+    
+    .commonBtn {
+        background-color: orange;
+        padding: 10px 30px;
+        border-radius: 20px;
+        color: #fff;
+    }
+    /* header css */
+    
+    .headerSection {
+        background-image: url(../../img/Ellipse-1.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        max-width: 1440px;
+        margin: 0 auto;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    
+    .headerSection-V2 {
+        background-image: url(../../img/Rectangle-17), url(../../img/eneko-urunuela-I2YSmEUAgDY-unsplash-1.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top, center;
+        max-width: 1440px;
+        margin: 0 auto;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    
+    .header_top_part {
+        margin: auto;
+        padding: 40px;
+    }
+    
+    .logo_class {
+        width: 220px;
+    }
+    
+    .menuMiddle ul li {
+        display: flex;
+        margin-right: 31px;
+    }
+    
+    .menuMiddle ul li a {
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
+        text-transform: capitalize;
+    }
+    
+    .menuRight ul li {
+        display: inline-block;
+    }
+    
+    .menuRight .user {
+        margin-left: 28px;
+        margin-right: 18px;
+    }
+    
+    .menuRight .menulist {
+        display: none;
+    }
+    
+    .menuMiddle {
+        margin-top: 10px;
+    }
+    
+    .menuMiddle ul li {
+        display: inline-flex;
+    }
+    
+    .menuRight {
+        margin-top: 10px;
+        text-align: end;
+    }
+    
+    .menuRight .menulist {
+        width: 350px;
+        top: 38px;
+        right: 14px;
+        position: absolute;
+        padding: 0px;
+        background-color: white;
+        text-align: right;
+        z-index: 1;
+        color: #828282;
+        padding: 20;
+    }
+    
+    .menuRight .menulist :hover {
+        color: orange;
+    }
+    
+    .menuRight .menu .menlist .menu2 {
+        text-align: right;
+    }
+    
+    .menulist .menu2 a {
+        margin: 10px;
+    }
+    /* hero sectin */
+    
+    .heroSection {
+        position: relative;
+        height: auto;
+        color: #fff;
+    }
+    
+    .heroSectionInner {
+        position: relative;
+        height: auto;
+        margin-top: -40px;
+    }
+    
+    .heroSectionInner .heroTitle {
+        padding-top: 40px;
+        padding-bottom: 36px;
+        font-size: 62px;
+        line-height: 72px;
+    }
+    
+    .heroSectionInner .leftSection {
+        padding-left: 0px;
+        margin-top: 40px;
+    }
+    
+    .heroSectionInner .rightSection {
+        position: relative;
+    }
+    
+    .heroSectionInner .imgSection {
+        bottom: 82px;
+        position: relative;
+    }
+    
+    img {
+        vertical-align: middle;
+        width: inherit;
+    }
+    
+    .heroSectionInner .logos .heroSubTitle {
+        margin-bottom: 27px;
+    }
+    
+    .logos .logosItem {
+        display: inline-block;
+        margin-right: 49px;
+        max-width: 100px;
+    }
+    
+    .heroSectionInner .readMoreBtn {
+        margin-top: 36px;
+        margin-bottom: 70px;
+    }
+    /*------------ bodySection-------------------*/
+    
+    .bodySection {
+        margin: 20px auto;
+        max-width: 1240px;
+    }
+    /*----Removes (.)-------*/
+    
+    ul {
+        list-style-type: none;
+    }
+    /*----------------------------------------------------------Row1--------------------------------------------------------------------*/
+    
+    .row1 {
+        position: relative;
+        display: flex;
+        padding: 100px;
+    }
+    
+    .row1Description {
+        margin: auto;
+    }
+    
+    .row1-title {
+        position: relative;
+        font-family: Quicksand;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #0092D4;
+    }
+    
+    .row1-description {
+        position: relative;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 42px;
+        color: #0092D4;
+    }
+    
+    .row1-button {
+        display: block;
+    }
+    /*--------------------------------------------------Row2---------------------------------------------------------------------------*/
+    
+    .vectorRowTitle {
+        font-weight: bold;
+        color: #1B2554;
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    
+    .vectorRowDescription {
+        font-weight: normal;
+        color: 1B2554;
+        font-size: 20px;
+        font: Roboto;
+    }
+    
+    .vectorRowTitle .subdescription {
+        display: block;
+        font-size: 20px;
+    }
+    
+    .vectorRow {
+        position: absolute;
+        background-image: url(../../img/Vector.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 129px;
+        width: 727px;
+        height: 742px;
+    }
+    
+    .section1 {
+        display: block;
+        width: 77%;
+    }
+    
+    .section2 {
+        display: block;
+        margin-top: 118px;
+        width: 84%;
+    }
+    
+    .section3 {
+        display: block;
+        margin-top: 27px;
+        margin-left: 122px;
+        width: 67%;
+    }
+    
+    .sub-description {
+        font-weight: bold;
+        color: #1B2554;
+        font-size: 18px;
+    }
+    /*-----------Row3-----------------*/
+    
+    .groupRow3 {
+        position: relative;
+        margin-top: 100px;
+    }
+    
+    .row3t {
+        margin-top: 95px;
+    }
+    
+    .textRow3 {
+        position: relative;
+        font-family: Mediolanum Semi-serif Headline;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 53px;
+        line-height: 57px;
+        letter-spacing: -0.01em;
+        color: #0092D4;
+    }
+    
+    .imgRow3 {
+        display: block;
+        width: 689px;
+        height: auto;
+    }
+    
+    .group52 {
+        display: block;
+        height: auto;
+        width: 447px;
+    }
+    
+    .row3t2 {
+        margin-top: 30px;
+    }
+    
+    .akTest {
+        font-family: Mediolanum Semi-serif Headline;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 43px;
+        color: rgba(27, 37, 84, 0.85);
+    }
+    
+    .button2 {
+        margin-top: 70px;
+    }
+    
+    .group37 {
+        display: block;
+        position: relative;
+        margin: auto;
+    }
+    /*----------------Row4-------------------------*/
+    
+    .row4 {
+        position: relative;
+        margin-top: 90px;
+    }
+    
+    .newsLinks {
+        position: relative;
+        display: block;
+        /* position: absolute; */
+    }
+    
+    .imgRow4 {
+        width: 266px;
+        height: 266px;
+        /* Shadow light */
+        filter: drop-shadow(0px 10px 40px rgba(106, 72, 9, 0.25));
+    }
+    
+    .newsLinks .imgRow4 :hover {
+        margin-left: -70px;
+    }
+    
+    .title-news {
+        margin-left: 66px;
+        font-family: Mediolanum Semi-serif Headline;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 36px;
+        letter-spacing: -0.01em;
+        color: #0092D4;
+    }
+    
+    .subtitle {
+        margin-top: -24px;
+        margin-left: 35px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: 0.05em;
+        color: rgba(27, 37, 84, 0.85);
+    }
+    /*-------------Row5---------------*/
+    
+    .row5 {
+        position: relative;
+        margin-top: 120px;
+        border: 2px solid black;
+        height: 50px;
+        border-radius: 12px;
+    }
+    
+    .blockrow {
+        background-color: rgb(34, 34, 2);
+        padding: 11px;
+    }
+    
+    .row5 .testReminder-text {
+        /* height: 34px; */
+        font-family: Quicksand;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #0092D4;
+    }
+    /* footer css */
+    
+    .menuBottomSection {
+        margin: auto;
+        background-color: #041355;
+        position: relative;
+        max-width: 1440px;
+        /* margin: auto; */
+        /* margin-top: 100px; */
+        top: 111px;
+    }
+    
+    .rowFooter {
+        display: block;
+        margin-top: 100px;
+        margin-left: 40px;
+    }
+    
+    .menuBottomSection .footerLogo {
+        position: relative;
+        width: 91px;
+    }
+    
+    .menuBottomSection a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .menuBottomSection a:hover {
+        color: #fff;
+        text-decoration: underline;
+    }
+    
+    .menuBottomSection .menuBottomSectionLinks .title {
+        margin-bottom: 20px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    
+    .menuBottomSection .menuBottomSectionLinks {
+        margin-bottom: 30px;
+        left: 62px;
+    }
+    
+    .menuBottomSection .menuBottomSectionLinks a {
+        color: #c5c5c5;
+    }
+    /*==============================================Chi-Siamo Page==================================================================*/
+    
+    .headerSection-Chi-Siamo {
+        background-image: url(../../img/Ellipse-1-white.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        max-width: 1440px;
+        margin: 0 auto;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    /*------Blue header------*/
+    
+    .menuMiddle-blue {
+        margin-top: 10px;
+    }
+    
+    .menuMiddle-blue ul li {
+        display: inline-flex;
+    }
+    
+    .menuMiddle-blue ul li a {
+        margin-right: 31px;
+        font-family: Quicksand;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+        /* Ciano */
+        color: #0092D4;
+    }
+    /* end of Blue header*/
+    
+    .logoSection {
+        position: relative;
+        width: 280px;
+    }
+    
+    .row-title {
+        color: #0092D4;
+        font-family: Mediolanum Semi-serif Headline;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 62px;
+        line-height: 110%;
+        color: #0092D4;
+    }
+    
+    .row-description {
+        /* Corpo blu grande */
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 42px;
+        /* Ciano */
+        color: #0092D4;
+    }

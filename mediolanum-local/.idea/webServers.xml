@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d7ec90ce-221a-4e5c-a09d-b43e3e55391c" name="farinato">
+        <fileTransfer rootFolder="/home/dh_8nvdkb/farinato.acserver.site/wp-content/" accessType="SFTP" host="www.farinato.acserver.site" port="22" sshConfigId="007b7f1b-4207-4c2a-8391-0abc32732d50" sshConfig="dh_8nvdkb@www.farinato.acserver.site:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="e2973f9a-acc3-4706-b9b8-6413501dd8d4" name="jaguar">
+        <fileTransfer rootFolder="/home/dh_pdeadf" accessType="SFTP" host="jaguarxk8.acserver.site" port="22" sshConfigId="d73b0a62-c408-46e0-bf66-fa8b72983874" sshConfig="dh_pdeadf@jaguarxk8.acserver.site:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
